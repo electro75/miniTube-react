@@ -35,7 +35,7 @@ class App extends Component {
         
 		return (
 			<div>
-				<SearchBar onSearchInit = {videoSearch} />
+				<h3>miniTube</h3><SearchBar onSearchInit = {videoSearch} />
                 <div className="container">        
                     <div className="row">
                         <div className="col-xs-7">
